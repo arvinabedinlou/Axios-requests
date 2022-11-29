@@ -3,9 +3,8 @@ import { getUserToken, delUserToken, delUserInfo } from './currentUser';
 // import { baseURL } from '../constants/defaults';
 
 export const baseURL =
-  // 'https://beta.7030.ir/api';
-  'https://dev.70si.ir/api';
-//   'https://7030.ir/api';
+  // 'https://your Url';
+
 
 export const SetAuthorizationAction = () => {
   delUserInfo();
@@ -58,7 +57,7 @@ export const headers = () => {
     'Content-Type': 'application/json',
     // 'Custom-user-agent': `pwa-308-3.2.0-${host}`,
     API_SHARED_KEY:
-      'lEy45wstZvZZ0sFIk1yy9gV0dahTrdAljCY8DE9hlaCwPzydRtrfQLQEyWfnFwDo',
+      ' your custom',
     // 'lang': curLang,
     // console.log(param)
     // param.clientUserAgent= 'pwa-308-3.2.0-main';
